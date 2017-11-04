@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<menu name="开始" search="1">
+		<action>开始判读</action>
+		<action checked="0">导入本地资源</action>
+		<action checked="0">保存文件</action>
+	</menu>
+	<menu name="图表关系" search="0">
+		<action>柱状图</action>
+		<action>折线图</action>
+		<action>雷达图</action>
+	</menu>
+	<menu name="设置" search="0">
+		<action>修改密码</action>
+	</menu>
+</data>

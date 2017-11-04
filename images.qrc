@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/Data_Meter.ico</file>
+        <file>image/info_normal.png</file>
+        <file>image/info_hover.png</file>
+        <file>image/info_pressed.png</file>
+        <file>image/exit_hover.png</file>
+        <file>image/exit_normal.png</file>
+        <file>image/exit_pressed.png</file>
+        <file>qt_zh_CN.qm</file>
+        <file>image/delete.png</file>
+        <file>image/delete_hover.png</file>
+        <file>image/password.png</file>
+        <file>image/user.png</file>
+        <file>image/info.png</file>
+        <file>image/warn.png</file>
+    </qresource>
+</RCC>

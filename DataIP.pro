@@ -1,0 +1,64 @@
+#-------------------------------------------------
+#
+# Project created by QtCreator 2017-08-20T11:23:37
+#
+#-------------------------------------------------
+
+QT       += core gui printsupport
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+TARGET = DataIP
+TEMPLATE = app
+
+# The following define makes your compiler emit warnings if you use
+# any feature of Qt which as been marked as deprecated (the exact warnings
+# depend on your compiler). Please consult the documentation of the
+# deprecated API in order to know how to port your code away from it.
+DEFINES += QT_DEPRECATED_WARNINGS
+
+# You can also make your code fail to compile if you use deprecated APIs.
+# In order to do so, uncomment the following line.
+# You can also select to disable deprecated APIs only up to a certain version of Qt.
+#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
+
+
+SOURCES += \
+        main.cpp \
+        DataIP.cpp \
+    DataTitle.cpp \
+    Login.cpp \
+    LineEdit.cpp \
+    IniOperator.cpp \
+    MainContent.cpp \
+    MessageBox.cpp \
+    DataPosition.cpp \
+    XmlReader.cpp \
+    FileRW.cpp \
+    ChangePassword.cpp \
+    qcustomplot.cpp \
+    Curve.cpp
+
+HEADERS += \
+        DataIP.h \
+    DataTitle.h \
+    Login.h \
+    LineEdit.h \
+    IniOperator.h \
+    MainContent.h \
+    MessageBox.h \
+    DataPosition.h \
+    common.h \
+    XmlReader.h \
+    FileRW.h \
+    ChangePassword.h \
+    qcustomplot.h \
+    Curve.h
+
+FORMS += \
+    DataIP.ui \
+    Login.ui \
+    DataPosition.ui
+
+RESOURCES += \
+    images.qrc
